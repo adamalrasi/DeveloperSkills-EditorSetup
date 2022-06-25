@@ -71,29 +71,29 @@
 // const amplitudeBug = calcTempAmplitudeBug([3, 5, 1], [9, 4, 5]);
 // console.log(amplitudeBug);
 
-const DATA1 = [17, 21, 23];
-const DATA2 = [12, 5, -5, 0, 4];
-const DATA = DATA1.concat(DATA2);
+// const DATA1 = [17, 21, 23];
+// const DATA2 = [12, 5, -5, 0, 4];
+// const DATA = DATA1.concat(DATA2);
+
+// // const printForecast = function (arr) {
+// //   for (let i = 0; i < arr.length; i++) {
+// //     let day = i;
+// //     let string = `... ${arr[0]}℃ in ${day[0]} days ... ${arr[1]}℃ in ${day[1]} days ... ${arr[2]}℃ in ${day[2]} days `;
+// //     console.log(string);
+// //   }
+// // };
+
+// // const DATA = DATA1.concat(DATA2);
+// // printForecast(DATA);
 
 // const printForecast = function (arr) {
+//   let str = "";
+//   let day = "";
 //   for (let i = 0; i < arr.length; i++) {
-//     let day = i;
-//     let string = `... ${arr[0]}℃ in ${day[0]} days ... ${arr[1]}℃ in ${day[1]} days ... ${arr[2]}℃ in ${day[2]} days `;
-//     console.log(string);
+//     day = day + i + "1";
+//     str = str + `${arr[i]}℃ in ${i + 1} days ... `;
 //   }
+//   console.log("... " + str);
 // };
 
-// const DATA = DATA1.concat(DATA2);
 // printForecast(DATA);
-
-const printForecast = function (arr) {
-  let str = "";
-  let day = "";
-  for (let i = 0; i < arr.length; i++) {
-    day = day + i + "1";
-    str = str + `${arr[i]}℃ in ${i + 1} days ... `;
-  }
-  console.log("... " + str);
-};
-
-printForecast(DATA);
